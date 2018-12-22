@@ -8,6 +8,7 @@
 CHIP Or {
     IN a, b;
     OUT out;
+
     PARTS:
     Not(in=a, out=nota);
     Not(in=b, out=notb);
